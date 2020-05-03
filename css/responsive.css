@@ -21,6 +21,9 @@ html {
         width: 90%;
         margin-bottom: 20px;
     }
+    .presents {
+        background-size: 33%;
+      }
 }
 
 @media (max-width: 950px) {

@@ -128,7 +128,44 @@ section.hero p {
   margin: 10px 0px 0px;
 }
 
+/*=============== 
+PRESENTS
+==================*/
+.presents {
+  padding-top:2%;
+  background-image: url("../img/bg-sobre.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 23%;
+  background-color: #f9f9f963;
+  /*background-color: #F98523;*/
+}
 
+.presents .container{
+  width: 90%;
+  max-width: 980px;
+  margin: auto;
+  padding: 20px 0 10% 0;
+}
+
+.presents .container p {
+  margin-top: 20px;
+}
+
+.presents .intro {
+  margin-top: 30px;
+}
+.presents .text-green {
+  color: #00BDAA;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.presents .text-gray {
+  color: #949494;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
 
 /*=============== 
 MAIN
