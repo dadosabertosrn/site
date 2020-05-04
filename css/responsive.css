@@ -32,9 +32,34 @@ html {
         font-size: 2.5rem;
     }
     .acompanhe .container .conteudo .image{
-        margin-top: 3%;
+        margin-top: 10%;
         width: 90%;
+    }
+    .footer .container .conteudo {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .footer .container .conteudo .logo {
+        display: none;
+    }
+
+    .footer .container .conteudo .menu {
+        padding: 20px 0 10px 0;
+    }
+
+    .footer .container .conteudo .sociais {
+        padding: 20px 0 30px 0;
+    }
+
+    .footer .container .conteudo .sociais img {
+        width: 20px;
+    }
+    .footer .container .conteudo .form .wrapper input, textarea{
+        width: 60vw;
       }
+
 }
 
 @media (max-width: 950px) {
