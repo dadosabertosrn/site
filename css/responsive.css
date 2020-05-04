@@ -31,10 +31,29 @@ html {
         text-align: center;
         font-size: 2.5rem;
     }
+    .acompanhe .container p {
+        line-height: 2.5rem;
+    }
     .acompanhe .container .conteudo .image{
         margin-top: 10%;
         width: 90%;
     }
+    
+    .acessos .container .titulo {
+        margin-bottom: 10%;
+    }
+
+    .acessos .container .conteudo .card {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 4vh;
+    }
+    
+    .acessos .container .conteudo .card img {
+       width: 50%;
+       margin-bottom: 2vh;
+    }
+
     .footer .container .conteudo {
         flex-direction: column;
         align-items: center;
