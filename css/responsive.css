@@ -23,6 +23,17 @@ html {
     }
     .presents {
         background-size: 33%;
+    }
+    .acompanhe .container {
+        flex-direction: column;
+    }
+    .acompanhe .container h2, h1{
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    .acompanhe .container .conteudo .image{
+        margin-top: 3%;
+        width: 90%;
       }
 }
 
