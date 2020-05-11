@@ -87,7 +87,6 @@ html {
     .footer .container .conteudo .form .wrapper input, textarea{
         width: 60vw;
       }
-
 }
 
 @media (max-width: 950px) {
