@@ -23,12 +23,11 @@ body {
 }
 
 header {
-  /*background-color: #00BDAA;
-  background-image: url('../img/bg.png');*/
+  background-image: url('../img/bg-teste.png');
 
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  height: auto;
+  height: 100vh;
   padding-bottom: 10px;
 }
 
@@ -48,7 +47,7 @@ header img {
 }
 
 #logo {
-  width:90px; 
+  width:80px; 
   height:80px; 
   margin-top: 5px;
 }
@@ -66,7 +65,7 @@ header nav ul li {
 
 header nav ul li a {
   text-decoration: none;
-  color: #00BDAA;
+  color: #fff;
   text-transform: uppercase;
   font-size: 1.6rem; 
   padding: 2.4rem;
@@ -116,6 +115,20 @@ h3 {
   transition: all 150ms linear 0s;
 }
 
+.button-white {
+  display: inline-block;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #00BDAA;
+  background-color: #fff;
+  margin: 15px 0px 0px;
+  padding: 12px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  transition: all 150ms linear 0s;
+}
+
 .button:hover {
   opacity: 0.9;
 }
@@ -131,17 +144,18 @@ section.hero {
 section.hero .container {
   width: 90%;
   max-width: 1200px;
-
   margin: auto;
-
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-align: right;
 }
-
+section.hero h2 {
+  color: #fff;
+}
 section.hero p {
-  color: black;
-  font-size: 1.8rem;
+  color: #fff;
+  font-size: 1.4rem;
   line-height: 3.2rem;
   margin: 10px 0px 0px;
 }
