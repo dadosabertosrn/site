@@ -298,7 +298,90 @@ main {
   .btn-outline:hover {
     transform: scale(1.05);
   }
+/*=============== 
+FOOTER
+==================*/
 
+.footer {
+  background-color: #222831;
+  width: 100%;
+}
+
+.footer .container {
+  width: 90%;
+  max-width: 1200px;
+
+  margin: auto;
+  padding-top: 5vh;
+  color: white;
+}
+.footer .container .conteudo {
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo2 {
+  width:126px; 
+  height: 86px;
+}
+
+.footer .container .conteudo .menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .container .conteudo .menu li {
+  padding: 6px 0;
+}
+
+.footer .container .conteudo .menu a {
+  color: white;
+  font-size: 1.5rem;
+}
+.footer .container .conteudo .sociais img{
+  margin-left: 20px;
+  width: 20px;
+}
+
+.footer .container .conteudo .form h1{
+  color: white;
+  font-size: 1.8rem;
+  line-height: 15px;
+  font-weight: 400;
+}
+
+.footer .container .conteudo .form .wrapper{
+  margin-top: 10px;
+}
+
+.footer .container .conteudo .form .wrapper input, textarea{
+  border: none;
+  width: 22vw;
+  border-radius: 5px;
+  resize: none;
+}
+
+.footer .container .conteudo .form .wrapper #email {
+  height: 3vh;
+}
+
+.footer .container .conteudo .form .wrapper #mensagem {
+  height: 10vh;
+}
+
+#btn-contato {
+  margin: 10px 0;
+  padding: 8px 20px;
+  background-color: #14647D;
+}
+
+.footer .container .copy{
+ display: flex;
+ justify-content: center;
+ padding-top: 5vh;
+ padding-bottom: 2.5vh;
+ font-size: 1.2rem;
+}
 @media (max-width: 630px) {
     .presents .container{
         background-image: url("");
