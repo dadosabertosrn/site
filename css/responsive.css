@@ -40,6 +40,9 @@ html {
     .acompanhe .container p {
         line-height: 2.5rem;
     }
+    .acompanhe .container .conteudo .slide{
+        justify-content: center;
+    }
     .acompanhe .container .conteudo .image{
         margin-top: 10%;
         width: 90%;

@@ -376,7 +376,7 @@ ACOMPANHE
 
 .acompanhe .container .conteudo .slide{
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
 }
 .acompanhe .container .conteudo .image{
   background-color: #00BDAA;
